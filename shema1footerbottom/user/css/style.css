@@ -1,0 +1,39 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+html, body {
+    height: 100%; /* chema */
+}
+body{ 
+    display: flex; /* chema */
+    flex-direction: column; /* chema */
+    font-family: 'Oswald', sans-serif;
+}
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header__top{
+    padding: 10px 0;
+    background-color: #ccc;
+}
+.header__center{
+    padding: 10px 0;
+}
+.header{ 
+    color: rgba(38, 0, 255, 0.815);
+}
+
+.content {
+    flex: 1 0 auto; /* chema */
+}
+
+.header, .footer, .content {
+    font-size: 30px;
+}
+.footer{
+    flex-shrink: 0; /* chema */
+    background-color: #00f;
+    color: #fff;
+}
+
